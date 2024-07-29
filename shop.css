@@ -1,0 +1,56 @@
+.shop{
+    margin-top: 300px;
+}
+
+.shop-div1{
+    text-align: center;
+}
+
+.shop-div2{
+    display: flex;
+    /* justify-content: space-evenly; */
+    gap: 50px;
+    margin-left: 370px;
+    margin-top: 30px;
+}
+
+.dog{
+    background-color: lightblue;
+    border-radius: 30%;
+}
+
+.cat{
+    background-color: lightsalmon;
+    border-radius: 30%;
+}
+
+.bird{
+    background-color: lightcoral;
+    border-radius: 30%;
+}
+
+.rabit{
+    background-color: lightskyblue;
+    border-radius: 30%;
+}
+
+.fish{
+    background-color: skyblue;
+    border-radius: 30%;
+}
+
+.fish2{
+    background-color: bisque;
+    border-radius: 30%;
+}
+
+.shop-title{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.shop-description{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(147, 134, 131, 1);
+    margin-top: 10px;
+}

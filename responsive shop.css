@@ -1,0 +1,37 @@
+    @media screen and (max-width:576px) {
+        .shop-div2{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            margin-left: 20px;
+        }
+
+        .dog{
+            background-color: white;
+            margin-left: 60px;
+        }
+
+        .cat{
+            background-color: white;
+            margin-left: 60px;
+        }
+        
+        .bird{
+            background-color: white;
+            margin-left: 60px;
+        }
+        
+        .rabit{
+            background-color: white;
+            margin-left: 60px;
+        }
+        
+        .fish{
+            background-color: white;
+            margin-left: 60px;
+        }
+
+        .fish2{
+            background-color: white;
+            margin-left: 60px;
+        }
+    }
