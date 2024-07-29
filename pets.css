@@ -1,0 +1,35 @@
+.pets{
+    margin-top: 15%;
+    text-align: center;
+}
+
+/* .pets-image-container > img{
+    max-width: 200px;
+    height: 200px;
+} */
+
+.pet-image{
+    max-width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.pets-image-container{
+    display: flex;
+    gap: 50px;
+    padding: 20px 270px ;
+}
+
+.pet-title{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.pet-description{
+    color: gray;
+}
+
+.image-caption{
+    font-weight: 800;
+    text-align: center;
+}

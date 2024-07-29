@@ -1,0 +1,40 @@
+.listing-div1{
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+
+
+.listing-div1{
+    text-align: center;
+    
+}
+.listing-div2{
+    display: flex;
+    /* justify-content: space-around; */
+    margin: 50px 200px 40px 250px;
+}
+
+.listing-div3{
+    text-align: center;
+}
+.list-image{
+    max-width: 370px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.div2-inner-1{
+    text-align: center;
+    margin-right: 70px;
+    margin-top: 50px;
+}
+.div2-inner-3{
+    text-align: center;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+.div2-inner-2{
+    /* width: 500px; */
+}

@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+.header{
+    margin-top: 40px;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-menu{
+    display: flex;
+    gap: 20px;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+a{
+    text-decoration: none;
+}
+.home{
+    color: orangered;
+}
+.links{
+    color: black;
+}
+
+#block{
+    display: block;
+    color: orangered;
+    border: 2px solid orangered;
+    padding: 2px;
+    padding-top: 5px;
+    margin-top: -7px;
+    margin-bottom: 5px;
+}
+
+.fa-cart-shopping{
+    color: orangered;
+}
+.fa-bars{
+    display: none;
+}
+
+.nav-button{
+    background-color: orangered;
+    color: white;
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 30px;
+}
+
+/* banner */
+
+.banner-container{
+    margin-top: 100px;
+}
+
+.banner-title{
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.banner-description{
+    margin-bottom: 10px;
+}
+
+.banner-button{
+    background-color: orangered;
+    color: white;
+    margin-left: 10px;
+    padding: 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 30px;
+}
+
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+}
+.banner-texts{
+    padding: 30px 100px;
+}
+
+.banner-image-container{
+    /* padding-right: 100px; */
+    padding: 0 250px;
+    position: relative;
+}
+
+#pic1{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+#pic2{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}
+.pic1-container{
+    z-index: 0;
+    /* position: absolute; */
+}
+
+.pic2-container{
+    position: absolute;
+    bottom: -20%;
+    right:20%;
+    z-index: 2;
+}
+
+.pic3-container{
+    border: 2px solid steelblue;
+    /* border-radius: 20px; */
+    position: absolute;
+    bottom: -25%;
+    right: 35%;
+    z-index: 2;
+}
+.logo1-container{
+    display: flex;
+    background-color: white;
+}
+.logo2-container{
+    display: flex;
+    background-color: white;
+}

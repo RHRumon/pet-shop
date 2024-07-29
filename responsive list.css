@@ -1,0 +1,26 @@
+@media screen and (max-width:576px) {
+    .listing-div2{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    .div2-inner-2{
+        order: -1;
+    }
+
+    .div2-inner-2{
+        margin-left: 40px;
+    }
+    .div2-inner-3{
+        margin-left: 40px;
+    }
+    .div2-inner-inner{
+        margin-left: 40px;
+    }
+
+    .list-section{
+        background-color:lightgrey;
+        border-radius: 10px;
+        /* color: white; */
+    }
+}

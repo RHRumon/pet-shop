@@ -1,0 +1,30 @@
+.popular-div1{
+    text-align: center;
+}
+
+.popular-div3{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.popular-div2{
+    margin: 20px 100px 20px 100px;
+    padding-left: 200px;
+}
+
+.popular-image-1{
+    max-width: 300px;
+    height: 300px;
+    /* transform: rotateY(20deg); */
+    border-radius: 15px;
+}
+.popular-image-2{
+    max-width: 300px;
+    height: 300px;
+    border-radius: 15px;
+}
+.popular-image-3{
+    max-width: 300px;
+    height: 300px;
+    border-radius: 15px;
+}

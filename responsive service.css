@@ -1,0 +1,16 @@
+@media screen and (max-width:576px) {
+    .service-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .service-div2{
+        margin-top: 30px;
+    }
+    .service-logo-container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    
+}

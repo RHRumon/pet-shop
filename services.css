@@ -1,0 +1,39 @@
+/* featured services style */
+
+.logo-1, .logo-2, .logo-3, .logo-4{
+    display: flex;
+}
+
+.logo1-texts, .logo2-texts, .logo3-texts, .logo4-texts{
+    padding-top: 20px;
+}
+
+.service-container{
+    margin-top: 250px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.service-logo-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.service-image{
+    max-width: 350px;
+    height: 300px;
+    border-radius: 20%;
+}
+
+.logo-title{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.service-div-title{
+    padding-left: 20px;
+}
+
+.service-div-description{
+    padding-left: 20px;
+}
