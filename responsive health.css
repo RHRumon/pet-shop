@@ -1,0 +1,19 @@
+@media screen and (max-width:576px) {
+    .flex-container{
+        display: grid;
+        gap: 40px;
+    }
+    .health-anchors{
+        margin-left: 20px;
+    }
+    .health{
+        margin-left: 10px;
+    }
+
+    
+
+    .health-image{
+        max-width: 100%;
+    }
+   
+}

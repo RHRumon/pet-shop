@@ -1,0 +1,14 @@
+@media screen and (max-width:576px) {
+    .company-icon-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        /* grid-template-columns: repeat(2,ifr); */
+        gap: 60px;
+        margin-left: 150px;
+        
+    }
+    .company-icon{
+        max-width: 100px;
+        height: 100px;
+    }
+}

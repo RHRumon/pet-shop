@@ -1,0 +1,11 @@
+.company-icon{
+    max-width: 80px;
+    height: 80px;
+}
+.company-icon-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.company{
+    margin-top: 250px;
+}

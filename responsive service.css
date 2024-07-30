@@ -12,5 +12,8 @@
         margin-top: 30px;
         margin-bottom: 20px;
     }
+    .service-image{
+        max-width: 100%;
+    }
     
 }
