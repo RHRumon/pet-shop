@@ -8,16 +8,6 @@
 footer{
     width: 100%;
 }
-                                    /* footer */
-
- /* footer {
-    width: 100%;
-    margin: 0;
-    box-sizing: border-box; 
-    background-color: rgba(38, 14, 7, 1);
-    padding: 20px 0;
-} */
-
 
 .popular-div1{
     text-align: center;
@@ -57,7 +47,7 @@ footer{
 }
 .popular-main-abs{
     display: grid;
-    gap: 20px;
+    /* gap: 20px; */
     grid-template-columns: repeat(3,  1fr);
     /* border: 1px solid red; */
     margin-top: 30px;

@@ -30,6 +30,13 @@
         display: none;
     }
 
+    #log-1, #log-2, #log-3, #log-4{
+        padding-top: 15px;
+    }
+    .logo1-texts{
+        
+    }
+
     /* .service-image2{
         position: absolute;
         

@@ -45,6 +45,9 @@
     position: relative;
 }
 
+.service-div{
+    /* padding-left: -20px; */
+}
 /* .service-div{
     padding: 0;
     margin: 0px;

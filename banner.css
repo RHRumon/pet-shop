@@ -109,8 +109,8 @@ a{
 
 .pic2-container{
     position: absolute;
-    bottom: -20%;
-    right:20%;
+    bottom: 25%;
+    right: 22%;
     z-index: 2;
 }
 
@@ -118,7 +118,7 @@ a{
     border: 2px solid steelblue;
     /* border-radius: 20px; */
     position: absolute;
-    bottom: -25%;
+    bottom: 20%;
     right: 35%;
     z-index: 2;
 }
@@ -129,6 +129,27 @@ a{
 .logo2-container{
     display: flex;
     background-color: white;
+}
+
+#log-1, #log-2, #log-3, #log-4{
+    height: 83px;
+}
+
+.logo1-texts, .logo2-texts, .logo3-texts, .logo4-texts{
+    margin-left: 10px;
+}
+
+.service-logo-container{
+    gap: 30px;
+}
+
+.service-div-description{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.service-container{
+    /* margin-bottom: 200px; */
 }
 
 .design-1{
@@ -143,12 +164,3 @@ a{
     right: 20%;
     top: 40%;
 }
-
-/* .pets-image-container{
-    display: flex;
-    gap: 54px;
-    padding: 20px 180px;
-} */
-/* .petshop-logo{
-    margin-top: -10px;
-} */

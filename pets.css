@@ -1,13 +1,9 @@
 .pets{
     margin-top: 15%;
     text-align: center;
-    margin-left: 17px;
 }
 
-/* .pets-image-container > img{
-    max-width: 200px;
-    height: 200px;
-} */
+
 
 .pet-image{
     max-width: 200px;
@@ -16,9 +12,10 @@
 }
 
 .pets-image-container{
+    box-sizing: border-box;
     display: flex;
-    gap: 50px;
-    padding: 20px 268px;
+    justify-content: space-around;
+    margin-top: 50px;
 }
 
 .pet-title{
@@ -28,6 +25,7 @@
 
 .pet-description{
     color: gray;
+    margin-top: 20px;
 }
 
 .image-caption{
