@@ -4,7 +4,7 @@
         grid-template-columns: repeat(1,1fr);
         /* grid-template-columns: repeat(2,ifr); */
         gap: 60px;
-        margin-left: 150px;
+        margin-left: 100px;
         
     }
     .company-icon{

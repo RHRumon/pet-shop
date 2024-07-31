@@ -4,7 +4,17 @@
         grid-template-columns: repeat(1,1fr);
     }
     .service-div2{
+        position: relative;
         margin-top: 30px;
+    }
+
+    /* .absolute-1{
+        position: absolute;
+    } */
+
+    .absolute-2{
+        position: absolute;
+        left: 61%;
     }
     .service-logo-container{
         display: flex;
@@ -15,5 +25,14 @@
     .service-image{
         max-width: 100%;
     }
+
+    .absolute-3,.absolute-4{
+        display: none;
+    }
+
+    /* .service-image2{
+        position: absolute;
+        
+    } */
     
 }

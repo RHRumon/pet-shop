@@ -1,7 +1,7 @@
 .health-anchors{
     display: flex;
     gap: 30px;
-    margin-left: 1000px;
+    margin-left: 874px;
     margin-top: 300px;
 }
 
@@ -57,4 +57,20 @@
     color: white;
     border-radius: 30px;
     font-size: 1rem;
+}
+
+.health-div2{
+    position: relative;
+}
+
+.health-1-abs{
+    position: absolute;
+    bottom: 10%;
+    right: 90%;
+    top: 85%;
+}
+.health-2-abs{
+    position: absolute;
+    top: -73px;
+    right: -17%;
 }

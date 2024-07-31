@@ -10,7 +10,6 @@
 }
 
 .input{
-    /* height: 25px; */
     padding: 7px;
     border: none;
     background-color: white;
@@ -33,14 +32,13 @@ footer{
     background-color: rgba(38, 14, 7, 1);
     color: white;
     padding-top: 20px;
+    
 }
 
 .fa-brands{
     font-size: 1.7rem;
 }
-.fa-square-twitter{
-    color: orangered;
-}
+
 .fa-whatsapp{
     color: rgb(6, 127, 6);
 }
@@ -55,10 +53,9 @@ footer{
 .Right{
     text-align: center;
     margin-top: 20px;
-    /* margin-bottom: 20px; */
     padding-bottom: 20px;
 }
 
-.footer-div3{
-  
+.white-dog{
+    max-width: 150px;
 }

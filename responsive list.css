@@ -23,4 +23,7 @@
         border-radius: 10px;
         /* color: white; */
     }
+    .list-1-abs,.list-2-abs{
+        display: none;
+    }
 }

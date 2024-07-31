@@ -15,5 +15,12 @@
     .health-image{
         max-width: 100%;
     }
+
+    .health-div2{
+        margin-left: -10px;
+    }
+    .health-2-abs, .health-1-abs{
+        display: none;
+    }
    
 }

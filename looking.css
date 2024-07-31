@@ -12,9 +12,12 @@
 
 .looking-div2{
     display: flex;
-    justify-content: space-around;
-    margin-left: 200px;
+    /* justify-content: space-around; */
+    
+    gap: 50px;
+    margin-left: 270px;
     margin-right: 200px;
+    position: relative;
 }
 
 .looking-image{
@@ -28,4 +31,14 @@
 
 .looking-div1-description{
     margin-top: 30px;
+}
+
+.looking-1-abs{
+    position: absolute;
+    top: 40%;
+    left: -17%;
+}
+.looking-2-abs{
+    position: absolute;
+    right: -17%;
 }

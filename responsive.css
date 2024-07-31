@@ -41,13 +41,15 @@
     }
 
     .banner-description{
-        margin-right: -20px;
+        /* margin-right: -20px; */
         margin-bottom: 30px;
+        margin-right: 0;
         
     }
     .banner-image-container{
         padding: 0;
         position: relative;
+        margin-left: 10px;
     }
 
     .pic1-container{
@@ -87,5 +89,17 @@
         margin-top: 300px;
     }
     
+    .image-caption{
+        text-align: center;
+        margin-left: 70px;
+    }
+
+    .design-1{
+        display: none;
+    }
+    
+    .design-2{
+        display: none;
+    }
     
 }

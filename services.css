@@ -12,6 +12,9 @@
     margin-top: 250px;
     display: flex;
     justify-content: space-evenly;
+    gap: 50px;
+    margin-bottom: 100px;
+    
 }
 
 .service-logo-container{
@@ -36,4 +39,36 @@
 
 .service-div-description{
     padding-left: 20px;
+}
+
+.service-div2{
+    position: relative;
+}
+
+/* .service-div{
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+    margin-left: -7px;
+} */
+.absolute-2{
+    position: absolute;
+    bottom: 65%;
+    left: -15%;
+}
+
+.absolute-3{
+    position: absolute;
+    left: -18%;
+    bottom: 7%;
+    
+}
+.absolute-4{
+    position: absolute;
+    right: -18%;
+    top: 10%;
+}
+
+.service-image2{
+    max-height: 150px;
 }

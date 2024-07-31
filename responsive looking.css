@@ -8,4 +8,10 @@
         background-color: lightcoral;
         border-radius: 15px;
     }
+    .looking-div2{
+        margin-left: 35px;
+    }
+    .looking-1-abs,.looking-2-abs{
+        display: none;
+    }
 }
