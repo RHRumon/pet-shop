@@ -30,10 +30,19 @@
   <link rel="stylesheet" href="company.css" />
   <link rel="stylesheet" href="responsive company.css" />
   <link rel="stylesheet" href="featured design.css">
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet"> -->
   <style>
     * {
       margin: 0;
       padding: 0;
+    }
+    body{
+      font-family: "Fredoka", sans-serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+     
     }
   </style>
 </head>
@@ -71,8 +80,8 @@
       <div class="banner-container">
         <div class="banner-texts">
           <h1 class="banner-title">
-            Established & Trusted <br />
-            Pet Care Service
+            Established & <br> Trusted
+            Pet <br> Care Service
           </h1>
           <p class="banner-description">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -95,15 +104,15 @@
           <div class="pic3-container">
             <div class="logo1-container">
               <img id="logo1" src="Logos/cat face.png" alt="" />
-              <div class="logo1-texts">
+              <div class="logo1-cat-texts">
                 <h6>Cat Food</h6>
                 <p>fish and meat</p>
               </div>
             </div>
             <hr />
-            <div class="logo2-container">
+            <div class="logo1-container">
               <img id="logo2" src="Logos/dog face.png" alt="" />
-              <div class="logo2-texts">
+              <div class="logo1-cat-texts">
                 <h6>Dog Food</h6>
                 <p>Milk and meat</p>
               </div>
@@ -179,40 +188,37 @@
   
           <div class="service-logo-container">
             <div class="logo-1">
-              <!-- <img src="Logos/service logo.png" alt="" /> -->
                <img id="log-1" src="designs/g-1.png" alt="">
               <div class="logo1-texts">
                 <h3 class="logo-title">Grooming</h3>
-                <p>Your pet is in good hands with us! our center.</p>
+                <p class="text-color">Your pet is in good hands with us! our center.</p>
               </div>
             </div>
   
             <div class="logo-2">
-              <!-- <img src="Logos/service logo.png" alt="" /> -->
 
               <img id="log-2" src="designs/g-2.png" alt="">
               <div class="logo2-texts">
                 <h3 class="logo-title">Dog Sitting</h3>
-                <p>Your pet is in good hands with us! our center.</p>
+                <p class="text-color" >Your pet is in good hands with us! our center.</p>
               </div>
             </div>
   
             <div class="logo-3">
-              <!-- <img src="Logos/service logo.png" alt="" /> -->
 
               <img id="log-3" src="designs/g-3.png" alt="">
               <div class="logo3-texts">
                 <h3 class="logo-title">Training</h3>
-                <p>Your pet is in good hands with us! our center.</p>
+                <p class="text-color">Your pet is in good hands with us! our center.</p>
               </div>
             </div>
   
             <div class="logo-4">
-              <!-- <img src="Logos/service logo.png" alt="" /> -->
+
                <img id="log-4" src="designs/g-4.png" alt="">
               <div class="logo4-texts">
                 <h3 class="logo-title">Veterinary</h3>
-                <p>Your pet is in good hands with us! our center.</p>
+                <p class="text-color">Your pet is in good hands with us! our center.</p>
               </div>
             </div>
           </div>
@@ -235,12 +241,12 @@
       </section>
   
       <!-- Most popular section -->
-      <section>
+      <section class="most-popular">
         <div class="popular-div1">
           <h2 class="popular-title">The Most Popular Breeds</h2>
           <p class="popular-description">
             Designed so animals can relax & indulge in pet stylists, run around
-            our exercise yards, make new friends in doggy daycare, or simply
+            our exercise yards, make new <br> friends in doggy daycare, or simply
             spend hours in our dog grooming salon.
           </p>
         </div>
@@ -264,7 +270,7 @@
         <div class="popular-div3">
           <div class="div3-inner">
             <h2>Fetch Bulldog</h2>
-            <p>
+            <p class="popular-texts">
               Golden Retriever <br />
               Labrador Retriever <br />
               German Shepherd Dog <br />
@@ -280,7 +286,7 @@
             </p>
           </div>
           <div class="div3-inner">
-            <p>
+            <p class="popular-texts">
               Golden Retriever <br />
               Labrador Retriever <br />
               German Shepherd Dog <br />
@@ -297,7 +303,7 @@
           </div>
   
           <div class="div3-inner">
-            <p>
+            <p class="popular-texts">
               Golden Retriever <br />
               Labrador Retriever <br />
               German Shepherd Dog <br />
@@ -313,7 +319,7 @@
             </p>
           </div>
           <div class="div3-inner">
-            <p>
+            <p class="popular-texts">
               Golden Retriever <br />
               Labrador Retriever <br />
               German Shepherd Dog <br />
@@ -349,7 +355,7 @@
           <div class="looking-image">
             <img class="image1" src="Image/pexels-hnoody93-58997.jpg" alt="" />
             <h3>Find Puppies</h3>
-            <p>
+            <p class="looking-text">
               Search the only source for 100% responsibly bred <br />
               Bully purebred puppies.
             </p>
@@ -357,7 +363,7 @@
           <div class="looking-image">
             <img class="image1" src="Image/pexels-kmerriman-20787.jpg" alt="" />
             <h3>Find Groomers</h3>
-            <p>
+            <p class="looking-text">
               Find the right local groomer for your <br />
               dog's grooming needs. 
             </p>
@@ -365,7 +371,7 @@
           <div class="looking-image">
             <img class="image1" src="Image/holding dog.jpg" alt="" />
             <h3>Find Trainers</h3>
-            <p>
+            <p class="looking-text">
               Search for a CGC dog trainer near you who can <br />
               help you and your dog reach your training goals.
             </p>
@@ -381,7 +387,7 @@
       <section class="list-section">
         <div class="listing-div1">
           <h2>Listing With Us</h2>
-          <p>
+          <p class="list-text">
             List your services or products and connect with new customers around
             the world
           </p>
@@ -390,12 +396,12 @@
           <div class="div2-inner-1">
             <div class="div2-inner-inner">
               <h2>Puppies</h2>
-              <p>
+              <p class="list-text">
                 Bully Mall Marketplace® is the only website that <br />
                 exclusively lists puppies from AKC-Registered <br />
                 litters, so you can choose a breeder with confidence.
               </p>
-              <p>If you are a Breeder Create Listing</p>
+              <p class="puppies">If you are a Breeder <span class="create">Create Listing</span></p>
             </div>
           </div>
           <div class="div2-inner-2">
@@ -403,13 +409,13 @@
           </div>
           <div class="div2-inner-3">
             <h2>Trainers</h2>
-            <p>
+            <p class="list-text">
               Marketplace for Trainers helps you match your dog <br />
               training goals with the perfect trainer for you and your <br />
               dog's needs, from Canine Good Citizen preparation <br />
               to performance sports.
             </p>
-            <p>If you are a Trainers Create Listing</p>
+            <p class="puppies">If you are a Trainers <span class="create">Create Listing</span></p>
           </div>
           <div class="list-1-abs">
             <img src="designs/listing-1 (1).png" alt="" />
@@ -420,7 +426,7 @@
         </div>
         <div class="listing-div3">
           <h2>Groomers</h2>
-          <p>
+          <p class="list-text">
             Each dog groomer listed with AKC Marketplace provides a <br />
             comprehensive list of services to help you find exactly <br />
             what your dog needs to be safely and comfortably <br />
@@ -444,25 +450,25 @@
           <div class="shop-1-abs">
             <img src="designs/shop-1.png" alt="" />
           </div>
-          <div class="dog">
+          <div class="dog pet_container">
             <img class="shop-logo" src="Logos/icons8-dog-100.png" alt="" />
           </div>
-          <div class="cat">
+          <div class="cat pet_container">
             <img class="shop-logo" src="Logos/icons8-cat-80.png" alt="" />
           </div>
-          <div class="bird">
+          <div class="bird pet_container">
             <img class="shop-logo" src="Logos/icons8-bird-80.png" alt="" />
           </div>
-          <div class="rabit">
+          <div class="rabit pet_container">
             <img class="shop-logo" src="Logos/icons8-rabbit-80.png" alt="" />
           </div>
-          <div class="fish">
+          <div class="fish pet_container">
             <img class="shop-logo" src="Logos/icons8-fish-100.png" alt="" />
           </div>
-          <div class="fish2">
+          <div class="fish2 pet_container">
             <img class="shop-logo" src="Logos/icons8-fish-100.png" alt="" />
           </div>
-          <div class="shop-2-abs">
+          <div class="shop-2-abs ">
             <img src="designs/shop-2.png" alt="" />
           </div>
         </div>

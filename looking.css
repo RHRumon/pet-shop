@@ -31,6 +31,9 @@
 
 .looking-div1-description{
     margin-top: 30px;
+font-size: 16px;
+color: rgba(147, 134, 131, 1);
+
 }
 
 .looking-1-abs{
@@ -41,4 +44,11 @@
 .looking-2-abs{
     position: absolute;
     right: -17%;
+}
+
+.looking-text{
+
+font-size: 16px;
+
+color: rgba(147, 134, 131, 1);
 }

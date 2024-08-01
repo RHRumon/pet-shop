@@ -18,11 +18,13 @@ footer{
     justify-content: space-evenly;
 }
 
+.most-popular{
+    margin-top: 300px;
+}
 
 .popular-image-1{
     max-width: 300px;
     height: 300px;
-    /* transform: rotateY(20deg); */
     border-radius: 15px;
 }
 .popular-image-2{
@@ -41,21 +43,28 @@ footer{
     height: 300px;
 }
 
-.popular-1-abs{
-   
-    
+.popular-description{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(147, 134, 131, 1);
 }
+
+.popular-texts{
+
+font-size: 16px;
+font-weight: 400;
+color: rgba(147, 134, 131, 1);
+  
+}
+
 .popular-main-abs{
     display: grid;
-    /* gap: 20px; */
     grid-template-columns: repeat(3,  1fr);
-    /* border: 1px solid red; */
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.popular-2-abs{
- 
-}
+
 @media screen and (max-width:575px) {
     .popular-main-abs{
         grid-template-columns: repeat(1,  1fr);

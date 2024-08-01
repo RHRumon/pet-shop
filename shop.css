@@ -15,34 +15,44 @@
     position: relative;
 }
 
+.pet_container{
+   
+        border-radius: 30%;
+        height: 100px;
+        width: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+ 
+}
 .dog{
     background-color: lightblue;
-    border-radius: 30%;
+   
 }
 
 .cat{
     background-color: lightsalmon;
-    border-radius: 30%;
+    
 }
 
 .bird{
     background-color: lightcoral;
-    border-radius: 30%;
+    
 }
 
 .rabit{
     background-color: lightskyblue;
-    border-radius: 30%;
+  
 }
 
 .fish{
     background-color: skyblue;
-    border-radius: 30%;
+   
 }
 
 .fish2{
     background-color: bisque;
-    border-radius: 30%;
+    
 }
 
 .shop-title{
@@ -63,6 +73,6 @@
 }
 .shop-2-abs{
     position: absolute;
-    right: 12%;
+    right: 7%;
     bottom: -6%;
 }
