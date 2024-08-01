@@ -5,12 +5,10 @@
     #block{
         border: none;
     }
-    .nav-menu > .links{
+    .nav-menu, .login-register{
         display: none;
     }
-    .nav-menu > #block{
-        display: none;
-    }
+
     .nav-logins > .fa-user, .nav-button{
         display: none;
     }
@@ -34,14 +32,11 @@
     .banner-texts{
         align-items: center;
         padding: 0;
-        /* margin-right: 500px; */
         text-align: center;
-        /* padding-right: 20px; */
         margin-left: 5%;
     }
 
     .banner-description{
-        /* margin-right: -20px; */
         margin-bottom: 30px;
         margin-right: 0;
         
@@ -53,9 +48,7 @@
     }
 
     .pic1-container{
-        margin-bottom: 150px;
-        /* position: absolute; */
-        
+        margin-bottom: 150px; 
     }
     .pic2-container{
        
@@ -72,20 +65,14 @@
 
     /* featured */
     .pets{
-        /* margin-left: 170px; */
         text-align: center;
     }
 
     .pets-image-container{
-        /* display: flex;
-        flex-direction: column; */
-        /* display: grid;
-        grid-template-columns: repeat(1,1fr); */
         flex-wrap: wrap;
         gap: 40px;
         padding: 0;
         margin-top: 50px;
-        /* margin-left:-200px; */
     }
    
     .main{
