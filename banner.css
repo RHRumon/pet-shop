@@ -7,23 +7,26 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: -29px;
 }
 
-.nav-menu{
+.nav-menu {
     display: flex;
     gap: 20px;
     font-size: 1.1rem;
     font-weight: 700;
     padding: 11px;
     padding-top: 30px;
+    margin-top: -33px;
 }
 
-.nav-logins{
+.nav-logins {
     padding-top: 39px;
     display: flex;
     gap: 15px;
     align-items: center;
     margin-bottom: 21px;
+    padding-top: 10px;
 }
 a{
     text-decoration: none;
@@ -51,7 +54,7 @@ a{
     color: orangered;
     border: 2px solid orangered;
     padding: 10px;
-
+    border-radius: 5px;
     font-family: Roboto;
     font-size: 18px;
     font-weight: 700;
@@ -95,12 +98,12 @@ color: rgba(201, 195, 193, 1);
     margin-bottom: 10px;
 }
 
-.banner-description{
-    margin-bottom: 10px;
+.banner-description {
+    margin-top: 27px;
+    margin-bottom: 18px;
     font-size: 1.2rem;
     font-weight: 500;
     color: rgba(147, 134, 131, 1);
-
 }
 
 .banner-button{
@@ -112,6 +115,7 @@ color: rgba(201, 195, 193, 1);
     border: none;
     border-radius: 30px;
     margin-top: 20px;
+    width: 148px;
 }
 
 .banner-container{

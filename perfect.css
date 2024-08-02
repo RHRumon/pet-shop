@@ -26,8 +26,18 @@
 }
 
 .perfect-description{
+    margin-top: 15px;
     margin-left: 28px;
     color: rgba(147, 134, 131, 1);
+    line-height: 20px;
+}
+
+.perfect-description-2 {
+    margin-top: 37px;
+    margin-left: 29px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
 }
 
 .perfect-div2{

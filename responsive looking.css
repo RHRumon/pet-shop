@@ -17,4 +17,11 @@
     .looking-text-3{
         margin-left: 6px;
     }
+    .looking-image-3 {
+        position: absolute;
+        max-width: 300px;
+        height: 297px;
+        top: -1px;
+        left: -4px;
+    }
 }

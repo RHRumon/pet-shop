@@ -3,7 +3,9 @@
     margin-bottom: 50px;
 }
 
-
+.list-title{
+    font-size: 2rem;
+}
 
 .listing-div1{
     text-align: center;
@@ -40,23 +42,26 @@
 }
 .list-2-abs {
     position: absolute;
-    bottom: -70%;
+    bottom: -49%;
     left: 28%;
 }
-
 
 .list-text{
     margin-top: 10px;
     font-size: 16px;
     font-weight: 400;  
-    color: rgb(147, 134, 131, 1)
+    color: rgb(147, 134, 131, 1);
+    line-height: 30px;
 }
 
 .puppies{
     margin-top: 10px;
-    font-size: 1rem;
-    font-weight: 600;
     color: rgba(38, 14, 7, 1);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+
+
 }
 
 .create{

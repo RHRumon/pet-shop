@@ -25,6 +25,29 @@
     margin-bottom: 20px;
 }
 
+#eat{
+    
+font-family: Roboto;
+font-size: 18px;
+font-weight: 700;
+color: rgba(38, 14, 7, 1);
+
+}
+
+.eat-bath-sleep{
+    
+font-family: Roboto;
+font-size: 18px;
+font-weight: 700;
+color: rgba(147, 134, 131, 1);
+
+}
+
+.icon-div1{
+    display: flex;
+    gap: 10px;
+}
+
 .health-image{
     max-width:400px;
     height: 300px;
@@ -47,7 +70,8 @@
 .health-description{
     font-size: 1rem;
     font-weight: 400;
-    color:rgba(147, 134, 131, 1)
+    color:rgba(147, 134, 131, 1);
+    line-height: 30px;
 }
 
 .health-btn{
