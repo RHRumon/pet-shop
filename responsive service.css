@@ -7,14 +7,32 @@
         position: relative;
         margin-top: 30px;
     }
+    .service-div{
+        margin-top: -129px;
+    }
 
-    /* .absolute-1{
+   
+    .pink-background {
         position: absolute;
-    } */
+        max-width: 305px;
+        height: 264px;
+        top: 14px;
+        left: 0;
+        bottom: 8px;
+    }
+
+    .girl-with-cat {
+        position: absolute;
+        max-width: 300px;
+        height: 406px;
+        top: -130px;
+        left: 2px;
+    }
 
     .absolute-2{
-        position: absolute;
-        left: 61%;
+        display: none;
+        /* position: absolute;
+        left: 61%; */
     }
     .service-logo-container{
         display: flex;
@@ -33,13 +51,13 @@
     #log-1, #log-2, #log-3, #log-4{
         padding-top: 15px;
     }
-    .logo1-texts{
-        
-    }
 
-    /* .service-image2{
-        position: absolute;
-        
+    /* .popular-title{
+        margin-top: 0;
     } */
+
+    .most-popular {
+        margin-top: 431px;
+    }
     
 }

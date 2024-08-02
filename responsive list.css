@@ -4,8 +4,9 @@
         flex-direction: column;
         margin-left: 20px;
     }
-    .div2-inner-1{
-        margin-right: 50px;
+    .div2-inner-1 {
+        margin-right: 44px;
+        margin-top: 369px;
     }
     .div2-inner-2{
         order: -1;
@@ -27,5 +28,26 @@
     }
     .list-1-abs,.list-2-abs{
         display: none;
+    }
+    .large-cat-backgrnd {
+        position: absolute;
+        max-width: 332px;
+        height: 219px;
+        top: 126px;
+        left: -149px;
+        margin-left: 100px;
+    }
+
+    .large-cat {
+        position: absolute;
+        max-width: 300px;
+        height: 329px;
+        top: 16px;
+        left: 21px;
+    }
+
+    .listing-div3 {
+        text-align: center;
+        margin-top: 47px;
     }
 }

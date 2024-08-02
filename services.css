@@ -11,8 +11,8 @@
 .service-container{
     margin-top: 250px;
     display: flex;
-    justify-content: space-evenly;
-    gap: 50px;
+    
+    gap: 88px;
     margin-bottom: 100px;
     
 }
@@ -51,18 +51,12 @@ color: rgba(147, 134, 131, 1);
 }
 
 .text-color{
-
-font-size: 1rem;
-font-weight: 400;
-
+    font-size: 1rem;
+    font-weight: 400;
     color: rgba(147, 134, 131, 1)
 }
 
-.absolute-2{
-    position: absolute;
-    bottom: 65%;
-    left: -15%;
-}
+
 
 .absolute-3{
     position: absolute;
@@ -73,9 +67,35 @@ font-weight: 400;
 .absolute-4{
     position: absolute;
     right: -18%;
-    top: 10%;
+    top: 86%;
 }
 
-.service-image2{
+.pink-background{
+    position: absolute;
+    max-width: 305px;
+    height: 264px;
+    top: 142px;
+    left: 0;
+    bottom: 8px;
+}
+
+.girl-with-cat{
+    position: absolute;
+    max-width: 300px;
+    height: 406px;
+    top: 0;
+    left: 2px;
+}
+
+.tera-beka{
+    position: absolute;
+    top: -161px;
+    left: 305px;
+}
+
+.absolute-2{
+    position: absolute;
+    bottom: -36%;
+    left: -15%;
     max-height: 150px;
 }

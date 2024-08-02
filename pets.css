@@ -14,8 +14,9 @@
 .pets-image-container{
     box-sizing: border-box;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 50px;
+    gap: 80px;
 }
 
 .pet-title{
@@ -31,4 +32,106 @@
 .image-caption{
     font-weight: 800;
     text-align: center;
+}
+
+/* pet design */
+
+.color-background-1{
+    max-width: 400px;
+    width: 180px;
+}
+.image1-container{
+    position: relative;
+}
+.pet-1{
+    position: absolute;
+    max-width: 200px;
+    height: 159px;
+    top: 25px;
+    left: 25px;
+}
+.image2-container{
+    position: relative;
+}
+.pet-2{
+    position: absolute;
+    max-width: 150px;
+    height: 100px;
+    top: 53px;
+    left: 17px;
+}
+.image3-container{
+    position: relative;
+}
+.pet-3{
+    position: absolute;
+    max-width: 122px;
+    height: 160px;
+    top: 26px;
+    left: 31px;
+}
+.image4-container{
+    position: relative;
+}
+.pet-4{
+    position: absolute;
+    max-width: 140px;
+    height: 160px;
+    top: 26px;
+    left: 16px;
+}
+
+.line-1{
+    position: absolute;
+    height: 110px;
+    top: 107px;
+    left: -26px;
+}
+
+.line-2{
+    position: absolute;
+    height: 110px;
+    top: 107px;
+    left: 139px;
+}
+.line-3{
+    position: absolute;
+    height: 110px;
+    top: -14px;
+    left: -28px;
+}
+
+.line-4{
+    position: absolute;
+    height: 110px;
+    top: -12px;
+    left: 143px;
+}
+.line-5{
+    position: absolute;
+    height: 110px;
+    top: 107px;
+    left: -28px;
+}
+
+.line-6{
+    position: absolute;
+    height: 110px;
+    top: 106px;
+    left: 143px;
+
+}
+.line-7{
+    position: absolute;
+    height: 110px;
+    top: -10px;
+    left: -28px;
+}
+
+.line-8{
+    position: absolute;
+    height: 110px;
+    top: -9px;
+    left: 143px;
+
 }

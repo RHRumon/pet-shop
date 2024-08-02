@@ -14,4 +14,7 @@
     .looking-1-abs,.looking-2-abs{
         display: none;
     }
+    .looking-text-3{
+        margin-left: 6px;
+    }
 }

@@ -3,7 +3,7 @@
         margin-left: 40px;
     }
     #block{
-        border: none;
+        display: none;
     }
     .nav-menu, .login-register{
         display: none;
@@ -44,11 +44,14 @@
     .banner-image-container{
         padding: 0;
         position: relative;
-        margin-left: 10px;
+        /* margin-left: 10px; */
+        margin-top: 100px;
     }
 
     .pic1-container{
         margin-bottom: 150px; 
+       /* display: flex;
+       flex-direction: column; */
     }
     .pic2-container{
        
@@ -59,8 +62,25 @@
     }
     .pic3-container{
         position: absolute;
-        bottom: 22%;
+        bottom: 18%;
         right: 40%;
+    }
+
+    /* banner-image */
+
+    .bacground-1{
+        position: relative;
+    }
+
+    .cat-big{
+        position: absolute;
+        left: 0;
+    }
+
+    .abs-2{
+        position: absolute;
+        left: -350px;
+        bottom: 547px;
     }
 
     /* featured */
@@ -83,12 +103,9 @@
         text-align: center;
     }
 
-    .design-1{
+    .ban-design-1, .ban-design-2{
         display: none;
     }
     
-    .design-2{
-        display: none;
-    }
     
 }
