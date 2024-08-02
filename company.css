@@ -1,10 +1,12 @@
-.company-icon{
-    max-width: 80px;
+.company-icon {
+    max-width: 164px;
     height: 80px;
 }
-.company-icon-container{
+.company-icon-container {
     display: flex;
-    justify-content: space-evenly;
+    gap: 125px;
+    margin-left: 103px;
+    /* margin-right: 100px; */
 }
 .company{
     margin-top: 250px;

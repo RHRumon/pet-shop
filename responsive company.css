@@ -7,8 +7,11 @@
         margin-left: 100px;
         
     }
-    .company-icon{
-        max-width: 100px;
+    .company-icon {
+        max-width: 151px;
         height: 100px;
+    }
+    .company{
+        margin-top: 500px;
     }
 }

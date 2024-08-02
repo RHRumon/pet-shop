@@ -42,6 +42,8 @@ a{
 
 .menu-div{
     padding-top: 10px;
+    display: flex;
+    gap: 51px;
 }
 
 #block{

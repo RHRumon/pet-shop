@@ -68,13 +68,33 @@
 
     /* banner-image */
 
-    .bacground-1{
+    .bacground-1 {
         position: relative;
+        max-width: 319px;
+        height: 408px;
+        left: 1px;
+        top: 0;
     }
 
     .cat-big{
         position: absolute;
         left: 0;
+    }
+
+    .background-2 {
+        position: absolute;
+        top: 260px;
+        left: 478px;
+        max-width: 300px;
+        height: 250px;
+    }
+
+    .cat-small {
+        position: absolute;
+        top: 259px;
+        left: 484px;
+        max-width: 250px;
+        height: 250px;
     }
 
     .abs-2{

@@ -35,6 +35,7 @@
     display: flex;
     justify-content: space-around;
     margin-top: 60px;
+    margin-left: -127px;
 }
 
 .health-title{
@@ -73,4 +74,21 @@
     position: absolute;
     top: -73px;
     right: -17%;
+}
+
+
+.person-backgrnd {
+    position: absolute;
+    max-width: 522px;
+    height: 274px;
+    top: 64px;
+    left: -348px;
+}
+
+.person-image {
+    position: absolute;
+    max-width: 400px;
+    height: 269px;
+    top: 13px;
+    left: -287px;
 }
