@@ -70,12 +70,11 @@
 
     .bacground-1 {
         position: relative;
-        max-width: 435px;
-        height: 544px;
+        max-width: 431px;
+        height: 551px;
         left: 0px;
         top: 0;
     }
-
     .cat-big {
         position: absolute;
         left: 45px;
@@ -85,7 +84,7 @@
     .background-2 {
         position: absolute;
         top: 260px;
-        left: 584px;
+        left: 589px;
         max-width: 300px;
         height: 250px;
     }
@@ -93,7 +92,7 @@
     .cat-small {
         position: absolute;
         top: 259px;
-        left: 588px;
+        left: 590px;
         max-width: 250px;
         height: 250px;
     }
