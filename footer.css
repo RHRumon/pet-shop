@@ -43,6 +43,10 @@ footer{
     color: rgb(6, 127, 6);
 }
 
+.fa-square-twitter{
+    color: orangered;
+}
+
 .footer-div2{
     display: flex;
     gap: 150px;

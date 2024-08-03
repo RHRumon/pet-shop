@@ -11,13 +11,16 @@
         margin-top: 200px;
     }
     
+    .health-div1{
+        margin-left: -12px;
+    }
 
     .health-image{
         max-width: 100%;
     }
 
-    .health-div2{
-        margin-left: -10px;
+    .health-div2 {
+        margin-left: -15px;
     }
     .health-2-abs, .health-1-abs{
         display: none;

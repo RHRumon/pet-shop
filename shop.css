@@ -77,3 +77,10 @@
     right: 7%;
     bottom: -6%;
 }
+
+.slider {
+    width: 95px;
+    height: 20px;
+    margin-left: 135px;
+    margin-top: 45px;
+}

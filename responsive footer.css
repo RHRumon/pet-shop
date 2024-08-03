@@ -1,7 +1,8 @@
 @media screen and (max-width:576px) {
-    .footer-div1{
+    .footer-div1 {
         display: grid;
         margin-bottom: 20px;
+        line-height: 38px;
     }
     .footer-div2{
         display: none;
@@ -17,5 +18,9 @@
     .input-text{
         text-align: center;
         margin-top: 10px;
+    }
+
+    .footer-pet-logo{
+        display: none;
     }
 }

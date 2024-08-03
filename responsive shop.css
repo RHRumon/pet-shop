@@ -37,4 +37,11 @@
         .shop-1-abs, .shop-2-abs{
             display: none;
         }
+
+        .slider {
+            width: 95px;
+            height: 20px;
+            margin-left: 95px;
+            margin-top: 45px;
+        }
     }
