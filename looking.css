@@ -65,6 +65,7 @@ line-height: 30px;
 
 .looking-image{
     position: relative;
+    text-align: center;
     
 }
 .looking-backgrnd{
@@ -124,6 +125,6 @@ line-height: 30px;
     margin-left: 10px;
 }
 
-/* .image-3-title{
-    margin-top: 18px;
-} */
+.text-div3{
+    margin-left: 10px;
+}

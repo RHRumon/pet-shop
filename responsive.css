@@ -26,14 +26,12 @@
         display: grid;
         grid-template-columns: 1fr;
         gap: 30px;
-        /* padding-right: 100px; */
     }
 
     .banner-texts{
         align-items: center;
         padding: 0;
         text-align: center;
-        /* margin-left: 5%; */
     }
 
     .banner-description{
@@ -44,14 +42,11 @@
     .banner-image-container{
         padding: 0;
         position: relative;
-        /* margin-left: 10px; */
         margin-top: 100px;
     }
 
     .pic1-container{
         margin-bottom: 150px; 
-       /* display: flex;
-       flex-direction: column; */
     }
     .pic2-container{
        

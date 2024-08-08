@@ -1,6 +1,7 @@
 .footer-div1{
     display: flex; 
     justify-content: space-evenly;
+    gap: 102px;
 }
 
 .footer-icons{
@@ -47,10 +48,10 @@ footer{
     color: orangered;
 }
 
-.footer-div2{
+.footer-div2 {
     display: flex;
     gap: 150px;
-    margin-left: 250px;
+    margin-left: 189px;
     margin-top: 30px;
     margin-bottom: 50px;
 }
